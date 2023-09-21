@@ -1,2 +1,2 @@
 # ffwebAdminUI
-fanikiwa admin web project
+fanikiwa admin desktop project
