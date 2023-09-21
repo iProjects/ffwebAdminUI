@@ -1,0 +1,176 @@
+==================================================================
+ERROR OCCOURED AT :01/03/2023 17:57:27 PM
+SOURCE:.Net SqlClient Data Provider
+MESSAGE:Invalid column name 'CommissionTransactionType'.
+Invalid column name 'StatFlag'.
+Invalid column name 'CanSuspend'.
+Invalid column name 'SuspenseCrAccount'.
+Invalid column name 'SuspenseDrAccount'.
+Invalid column name 'PrintReceiptPrompt'.
+Invalid column name 'PrintReceipt'.
+Invalid column name 'ReceiptLayout'.
+Whole Exception:System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CommissionTransactionType'.
+Invalid column name 'StatFlag'.
+Invalid column name 'CanSuspend'.
+Invalid column name 'SuspenseCrAccount'.
+Invalid column name 'SuspenseDrAccount'.
+Invalid column name 'PrintReceiptPrompt'.
+Invalid column name 'PrintReceipt'.
+Invalid column name 'ReceiptLayout'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteReader(DbCommand command, CommandBehavior cmdBehavior)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteReader(DbCommand command)
+   at fanikiwaGL.Data.TransactionTypeDAC.Select() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Data\fanikiwaGL.Data\TransactionTypeDAC.cs:line 325
+   at fanikiwaGL.Business.StaticTransactionsComponent.GetAllTransactionTypes() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Business\fanikiwaGL.Business\StaticTransactionsComponent.cs:line 423
+   at fPeerLending.Business.TransactionsComponent.GetAllTransactionTypes() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fPeerLending\Business\fPeerLending.Business\TransactionsComponent.cs:line 52
+   at ffwebAdminUI.PostScreen.PostScreen_Load(Object sender, EventArgs e) in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\Forms\Post\PostScreen.cs:line 40
+ClientConnectionId:de2493de-553c-4b4b-9d30-b966fb9f7bd3
+Error Number:207,State:1,Class:16
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :13/09/2023 14:29:38 PM
+SOURCE:.Net SqlClient Data Provider
+MESSAGE:Invalid column name 'CommissionTransactionType'.
+Invalid column name 'StatFlag'.
+Invalid column name 'CanSuspend'.
+Invalid column name 'SuspenseCrAccount'.
+Invalid column name 'SuspenseDrAccount'.
+Invalid column name 'PrintReceiptPrompt'.
+Invalid column name 'PrintReceipt'.
+Invalid column name 'ReceiptLayout'.
+Whole Exception:System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CommissionTransactionType'.
+Invalid column name 'StatFlag'.
+Invalid column name 'CanSuspend'.
+Invalid column name 'SuspenseCrAccount'.
+Invalid column name 'SuspenseDrAccount'.
+Invalid column name 'PrintReceiptPrompt'.
+Invalid column name 'PrintReceipt'.
+Invalid column name 'ReceiptLayout'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteReader(DbCommand command, CommandBehavior cmdBehavior)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteReader(DbCommand command)
+   at fanikiwaGL.Data.TransactionTypeDAC.Select() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Data\fanikiwaGL.Data\TransactionTypeDAC.cs:line 325
+   at fanikiwaGL.Business.StaticTransactionsComponent.GetAllTransactionTypes() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Business\fanikiwaGL.Business\StaticTransactionsComponent.cs:line 423
+   at fPeerLending.Business.TransactionsComponent.GetAllTransactionTypes() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fPeerLending\Business\fPeerLending.Business\TransactionsComponent.cs:line 52
+   at ffwebAdminUI.TransactionTypesListForm.TransactionTypesListForm_Load(Object sender, EventArgs e) in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\Forms\TransactionTypesListForm.cs:line 72
+ClientConnectionId:93aa8df7-0d76-4a22-ad27-39251b46f1fe
+Error Number:207,State:1,Class:16
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :15/09/2023 18:06:33 PM
+SOURCE:.Net SqlClient Data Provider
+MESSAGE:Invalid column name 'CommissionTransactionType'.
+Invalid column name 'StatFlag'.
+Invalid column name 'CanSuspend'.
+Invalid column name 'SuspenseCrAccount'.
+Invalid column name 'SuspenseDrAccount'.
+Invalid column name 'PrintReceiptPrompt'.
+Invalid column name 'PrintReceipt'.
+Invalid column name 'ReceiptLayout'.
+Whole Exception:System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CommissionTransactionType'.
+Invalid column name 'StatFlag'.
+Invalid column name 'CanSuspend'.
+Invalid column name 'SuspenseCrAccount'.
+Invalid column name 'SuspenseDrAccount'.
+Invalid column name 'PrintReceiptPrompt'.
+Invalid column name 'PrintReceipt'.
+Invalid column name 'ReceiptLayout'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteReader(DbCommand command, CommandBehavior cmdBehavior)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteReader(DbCommand command)
+   at fanikiwaGL.Data.TransactionTypeDAC.Select() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Data\fanikiwaGL.Data\TransactionTypeDAC.cs:line 325
+   at fanikiwaGL.Business.StaticTransactionsComponent.GetAllTransactionTypes() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Business\fanikiwaGL.Business\StaticTransactionsComponent.cs:line 423
+   at fPeerLending.Business.TransactionsComponent.GetAllTransactionTypes() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fPeerLending\Business\fPeerLending.Business\TransactionsComponent.cs:line 52
+   at ffwebAdminUI.PostScreen.PostScreen_Load(Object sender, EventArgs e) in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\Forms\Post\PostScreen.cs:line 40
+ClientConnectionId:93fad2eb-b7fd-4d34-b114-a81a3d0f61c2
+Error Number:207,State:1,Class:16
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :21/09/2023 12:19:11 PM
+SOURCE:.Net SqlClient Data Provider
+MESSAGE:Invalid column name 'NoOfPaymentsMade'.
+Invalid column name 'NoOfDefaults'.
+Invalid column name 'AmountDefaulted'.
+Invalid column name 'ChargeCommFlag'.
+Invalid column name 'CommFreqFlag'.
+Invalid column name 'CommSourceFlag'.
+Invalid column name 'ChargeWho'.
+Invalid column name 'CommissionAccount'.
+Invalid column name 'CommissionPaidFlag'.
+Invalid column name 'CommissionAmount'.
+Invalid column name 'LoanId'.
+Invalid column name 'STOAccType'.
+Whole Exception:System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'NoOfPaymentsMade'.
+Invalid column name 'NoOfDefaults'.
+Invalid column name 'AmountDefaulted'.
+Invalid column name 'ChargeCommFlag'.
+Invalid column name 'CommFreqFlag'.
+Invalid column name 'CommSourceFlag'.
+Invalid column name 'ChargeWho'.
+Invalid column name 'CommissionAccount'.
+Invalid column name 'CommissionPaidFlag'.
+Invalid column name 'CommissionAmount'.
+Invalid column name 'LoanId'.
+Invalid column name 'STOAccType'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteReader(DbCommand command, CommandBehavior cmdBehavior)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteReader(DbCommand command)
+   at fanikiwaGL.Data.STODAC.Select() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Data\fanikiwaGL.Data\STODAC.cs:line 267
+   at fanikiwaGL.Business.StaticTransactionsComponent.SelectSTOByAdmin() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Business\fanikiwaGL.Business\StaticTransactionsComponent.cs:line 809
+   at fPeerLending.Business.LoansComponent.ListLoansByAdmin() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fPeerLending\Business\fPeerLending.Business\LoansComponent.cs:line 31
+   at ffwebAdminUI.LoansForm.LoansForm_Load(Object sender, EventArgs e) in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\Forms\LoansForm.cs:line 103
+ClientConnectionId:98ba3dc2-1c92-4901-b4a7-df34caf2fde8
+Error Number:207,State:1,Class:16
+==================================================================
+
